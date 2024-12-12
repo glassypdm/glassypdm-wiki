@@ -12,7 +12,7 @@ Currently, only Windows is supported.
 ### Server URL
 When opening glassyPDM for the first time, you will be greeted with a server setup screen:
 
-TODO screenshot
+![setup](../../../assets/setup.png)
 
 You should obtain a server URL to input here from your team/organization.
 Be sure to select the correct scheme for your URL - there's no need to include the `https://` or `http://` part of the URL in the text input.
@@ -21,7 +21,7 @@ After completing this, you'll be greeted with a login screen.
 Once you've made an account, your team lead can add you to your team.
 
 ## Client Overview
-TODO annotated screenshot
+![client overview annotated](../../../assets/client_overview_annotated.png)
 1. List of projects that are being tracked locally
 2. View all projects you have access to
 3. View your teams
@@ -32,11 +32,10 @@ TODO annotated screenshot
 
 ### Client Updates
 glassyPDM will automatically update when there is a new version available.
-You can view a changelog here link TODO.
+You can view a changelog on GitHub [here](https://github.com/glassypdm/glassypdm-client/blob/main/CHANGELOG.md).
 
 ## Suggested Workflow
-TODO excalidraw diagram
-
+![workflow](../../../assets/workflow.png)
 Once you've been added to a team, you'll be able to view the team's projects in the Projects page.
 
 The first step to get a project downloaded is to sync your client with the server.
@@ -47,29 +46,32 @@ This will do three things:
 
 Depending on the size of the project, this may take a while.
 
-(TODO colorbox) If there are any file conflicts, i.e., files that need to be both uploaded and downloaded, glassyPDM will notify you
+:::note
+If there are any file conflicts, i.e., files that need to be both uploaded and downloaded, glassyPDM will notify you
 of them so you can take the best action, e.g., overwriting it by downloading the revision from the server, backing it up in a separate location,
 etc.
+:::
 
 After syncing, you will be able to download or upload changes if pertinent.
 
-colorbox TODO If your computer's storage drive is nearing its limits, you can disable the cache to save storage space in Settings.
+:::tip
+If your computer's storage drive is nearing its limits, you can disable the cache to save storage space in Settings.
+:::
 
 Uploading files can be done in a similar fashion to downloading them, with the key difference being you can add a message describing the
 changes being uploaded.
-
-TODO colorbox To upload files, you will need pertinent permissions to do so.
+Note that to upload files, you will need pertinent permissions to do so.
 
 If more than 200 files are being uploaded, glassyPDM will automatically break up the project update into different parts.
 
 ### Project History
-TODO screenshot of project update page
+![project history page](../../../assets/projecthistory.png)
 You can view project updates by navigating to the Project History tab of a given project.
 There, you will be able to see what files have been updated, and download them if desired.
 
 ## Further Resources
 You're all set up now!
 
-You can learn more about the client settings here (link TODO).
+You can learn more about the desktop client settings [here](../settings).
 
-If you are a team lead, proceed to (LINK TODO) to learn more about the permissions system in glassyPDM.
+If you are a team lead, proceed to [Permissions](../permissions) to learn more about the permissions system in glassyPDM.
